@@ -21,12 +21,12 @@ public class Curso {
 	public Curso() {
 		this.codCurso = 0;
 		this.descripcion = "XXXXXX";
-		this.subvencionado = false;
+		this.subvencionado = true;
 	}
 	public Curso(int codCurso) {
 		this.codCurso = codCurso;
 		this.descripcion = "XXXXXX";
-		this.subvencionado = false;
+		this.subvencionado = true;
 	}
 
 	public int getCodCurso() {
